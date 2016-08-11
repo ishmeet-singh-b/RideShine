@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_item_home"
+        android:icon="@drawable/car_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_item_login"
+        android:icon="@drawable/ic_action_key"
+        android:title="login" />
+
+    <item
+        android:id="@+id/nav_item_EmergencyPickup"
+        android:icon="@drawable/towtruck"
+        android:title="Tow away" />
+
+    <item
+        android:id="@+id/nav_item_OnSiteRepair"
+        android:icon="@drawable/repair2"
+        android:title="Emergency On Site Repair" />
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:icon="@drawable/ic_airport_shuttle"
+                android:title="Shuttle" />
+            <item
+                android:icon="@drawable/ic_restaurant"
+                android:title="Random Icon" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item
+            android:icon="@drawable/customercare"
+            android:title="Call our Customer Care"
+            android:id="@+id/callMe"/>
+
+    </group>
+
+
+</menu>
